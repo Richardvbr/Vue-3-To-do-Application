@@ -48,7 +48,11 @@
 			// Create default/example list
 			const defaultData = [{
 				done: false,
-				content: 'Example item | Click to toggle status'
+				content: 'Example item | Click to toggle status',
+			},
+			{
+				done: true,
+				content: 'Example item | This item is checked!'
 			}]
 
 			// Parse local storage
