@@ -270,4 +270,16 @@ body {
 		}
 	}
 }
+
+@media screen and (max-width: 600px) {
+	body #app {
+		max-width: 300px;
+	}
+}
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+	body #app {
+		max-width: 350px;
+	}
+}
 </style>
